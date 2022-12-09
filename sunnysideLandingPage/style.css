@@ -288,6 +288,40 @@ p{
     display: block;
 }
 
+footer{
+    height: 300px;
+    background-color: #91D3C6;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    
+}
+
+footer > img{
+    width: min-content;
+    align-self: center;
+    padding-top: 70px;
+}
+
+.footer-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 40px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    color:  hsl(168, 34%, 41%);
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
 
 
 
