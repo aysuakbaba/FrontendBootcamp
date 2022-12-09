@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 a{
@@ -83,6 +85,8 @@ body{
 .container{
     width: 100%;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 .second-row, .third-row, .fourth-row{
@@ -131,17 +135,15 @@ h2,h3,a{
     font-family: 'Fraunces', serif;
 }
 h2{
-    font-size: 40px;
-    font-weight: 900;
-    width:450px;
-    padding-bottom: 40px;
+    font-size: 45px;
+    font-weight: 900; 
+    padding-bottom: 64px;
     color: hsl(212, 27%, 19%)
 }
 p{
-    font-family: 'Barlow', sans-serif;
-    width: 400px;
+    font-family: 'Barlow', sans-serif; 
     line-height: 25px;
-    padding-bottom: 25px;
+    font-size: 19px;
     color: hsl(210, 4%, 67%);
 }
 .fourth-left{
@@ -209,7 +211,81 @@ p{
 
 .client-testimonials{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+    gap: 20px;
+}
 
+.client-testimonials h2{
+    text-transform: uppercase;
+    color: hsl(210, 4%, 67%);
+    font-size: 18px;
+    letter-spacing: 8px;
+    font-weight: 700;
+
+}
+
+.client-testimonials p{
+    color: hsl(232, 10%, 55%);
+    font-size: 18px;
+    
+}
+
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+    padding: 70px;
+}
+
+.client{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.client img{
+    width: 70px;
+    height: 70px;
+    border-radius: 9999px;
+    position: relative;
+    bottom: 90px;
+   
+}
+
+.client h3{
+    font-weight: 900;
+    padding: 10px;  
+}
+
+.client h5{
+    font-family: 'Barlow', sans-serif;
+    color: hsl(210, 4%, 67%);
+    font-size: 14px;
+}
+
+.bottom-pictures{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture img{
+    width:100%;
+    height: auto;
+    display: block;
 }
 
 
